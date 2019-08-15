@@ -5,7 +5,7 @@
 
 ---
 ## Table of Contents
----
+
 - [Introduction](#introduction)
 - [Prerequiste](#prerequiste)
 - [Configuration](#configuration)
@@ -15,19 +15,20 @@
   - [Start](#start-development-server)
 - [Dependencies](#dependencies)
 - [License](#license)
-
+---
 
 ## Introduction
 ---
 
 ## Prerequiste
----
+
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) - Simple bash script to manage multiple active node.js versions.
 
 - Nodemon - Download and Install [Nodemon](https://nodemon.io/) - nodemon is a tool that automatically restarting the node application when file changes in the directory are detected.
+---
 
 ## Configuration
----
+
 <ol>
   <li>Basic Configuration</li>
   <li>Structured</li>
@@ -37,21 +38,24 @@
   <li>Redis Implementation</li>
 </ol>
 
-## Installation
 ---
+
+## Installation
+
 ### Clone
 ```bash
 $ git clone https://github.com/tatasfachrul/express-boileplate
 $ cd express-boilerplate
 $ npm install
 ```
+---
 
 ### Create Environment Variable
 ```bash
 $ cp .env.example .env
 $ nano .env
 ```
-
+---
 ```bash
 SERVER_PORT = YOUR-PORT
 WHITELIST = "YOUR-WHITELIST"
@@ -64,13 +68,15 @@ DB_NAME = "YOUR-DB-NAME"
 SECRET_KEY = "YOUR-SECRET-KEY"
 REQUEST_HEADERS = "YOUR-APP-HEADERS"
 ```
+---
 ### Start Development Server
 ```bash
 $ npm start
 ```
+---
 
 ## Other Dependencies
----
+
 - [mysql](#)
 - [crypto](#)
 - [jsonwebtoken](#)
@@ -81,8 +87,11 @@ $ npm start
 - [mocha](#)
 - etc.
 
-
-## License
 ---
 
+
+## License
+
 [Beerware](https://en.wikipedia.org/wiki/Beerware "Beerware") © [Tatas](https://github.com/tatasfachrul "Tatas")
+
+---
