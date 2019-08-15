@@ -91,6 +91,7 @@ $ npm start
 
 
 ## License
----
 
 [Beerware](https://en.wikipedia.org/wiki/Beerware "Beerware") © [Tatas](https://github.com/tatasfachrul "Tatas")
+
+---
