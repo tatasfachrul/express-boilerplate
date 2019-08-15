@@ -12,7 +12,7 @@
   <li></li>
   <li></li>
 </ol>
-[link](#prerequiste)Prerequiste
+- [prerequiste](#prerequiste)
 
 ---
 
