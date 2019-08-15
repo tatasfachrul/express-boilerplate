@@ -3,6 +3,6 @@ const Route = express.Router()
 
 const productsController = require('../controllers/products')
 
-Route.get('/products', productsController.getProducts)
+Route.get('/', productsController.getProducts)
 
 module.exports = Route
