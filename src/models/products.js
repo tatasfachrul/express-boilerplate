@@ -11,5 +11,38 @@ module.exports = {
         }
       })
     })
+  },
+  addProduct: (data) => {
+    return new Promise((resolve, reject) => {
+      conn.query('INSERT INTO product SET ?', data, (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(err)
+        }
+      })
+    })
+  },
+  updateProduct: (data, productid) => {
+    return new Promise((resolve, reject) => {
+      conn.query('UPDATE product SET ? WHERE productid = ?', [data, productid], (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(err)
+        }
+      })
+    })
+  },
+  deleteProduct: (productid) => {
+    return new Promise((resolve, reject) => {
+      conn.query('DELETE FROM product WHERE productid = ?', productid, (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(err)
+        }
+      })
+    })
   }
 }
