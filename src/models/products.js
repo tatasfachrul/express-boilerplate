@@ -7,7 +7,40 @@ module.exports = {
         if (!err) {
           resolve(result)
         } else {
-          reject(err)
+          reject(new Error(err))
+        }
+      })
+    })
+  },
+  addProduct: (data) => {
+    return new Promise((resolve, reject) => {
+      conn.query('INSERT INTO product SET ?', data, (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(new Error(err))
+        }
+      })
+    })
+  },
+  updateProduct: (data, productid) => {
+    return new Promise((resolve, reject) => {
+      conn.query('UPDATE product SET ? WHERE productid = ?', [data, productid], (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(new Error(err))
+        }
+      })
+    })
+  },
+  deleteProduct: (productid) => {
+    return new Promise((resolve, reject) => {
+      conn.query('DELETE FROM product WHERE productid = ?', productid, (err, result) => {
+        if (!err) {
+          resolve(result)
+        } else {
+          reject(new Error(err))
         }
       })
     })
