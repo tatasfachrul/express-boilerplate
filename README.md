@@ -4,45 +4,48 @@
 ![](https://img.shields.io/badge/License-Beerware-yellowgreen.svg)
 
 ---
-**Guidelines**
-<ol>
-  <li>Introduction</li>
-  <li> [link](#prerequiste)Prerequiste </li>
-  <li>Version</li>
-  <li></li>
-  <li></li>
-</ol>
-- [prerequiste](#prerequiste)
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequiste](#prerequiste)
+- [Configuration](#configuration)
+- [Installation](#installation)
+  - [Clone](#clone)
+  - [Environment](#create-environment-variable)
+  - [Start](#start-development-server)
+- [Dependencies](#dependencies)
+- [License](#license)
 
 ---
+## Introduction
 
 ## Prerequiste
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) with [NVM](https://github.com/creationix/nvm) (Node Version Manager) - Simple bash script to manage multiple active node.js versions.
 
-## Version
+## Configuration
 <ol>
-  <li>Introduction</li>
-  <li>Simple</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Simple Configuration</li>
+  <li>Structured</li>
+  <li>File Handling</li>
+  <li>Auth with JWT</li>
+  <li>Unit Testing</li>
+  <li>Redis Implementation</li>
 </ol>
 
 ## Installation
 ### Clone
-```
-$ git clone https://github.com/tatasfachrul/simple-REST
-$ cd simple-REST
+```bash
+$ git clone https://github.com/tatasfachrul/express-boileplate
+$ cd express-boilerplate
 $ npm install
 ```
 
 ### Create Environment Variable
-```
+```bash
 $ cp .env.example .env
 $ nano .env
 ```
 
-```
+```bash
 SERVER_PORT = YOUR-PORT
 WHITELIST = "YOUR-WHITELIST"
 
@@ -55,11 +58,23 @@ SECRET_KEY = "YOUR-SECRET-KEY"
 REQUEST_HEADERS = "YOUR-APP-HEADERS"
 ```
 ### Start Development Server
-```
+```bash
 $ npm start
 ```
 
-### License
+## Other Dependencies
+- [mysql](#)
+- [crypto](#)
+- [jsonwebtoken](#)
+- [multer](#)
+- [cloudinary](#)
+- [multer-s3](#)
+- [morgan](#)
+- [mocha](#)
+- etc.
+
+
+## License
 ----
 
 [Beerware](https://en.wikipedia.org/wiki/Beerware "Beerware") © [Tatas](https://github.com/tatasfachrul "Tatas")
