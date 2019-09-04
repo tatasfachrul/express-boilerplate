@@ -41,7 +41,11 @@ Express Boilerplate is packed with bunch of feature you can use for developing y
 <ol>
   <li>Basic Configuration</li>
   <li>Structured</li>
-  <li>File Handling</li>
+  <li>File Handling
+    <ul>
+      <li>AWS S3</li>
+    </ul>
+  </li>
   <li>Auth with JWT</li>
   <li>Unit Testing</li>
   <li>Redis Implementation</li>
