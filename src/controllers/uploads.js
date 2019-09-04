@@ -13,5 +13,8 @@ module.exports = {
       console.log(dataFile)
       return res.json(dataFile)
     }
+  },
+  upload: (req, res) => {
+    console.log('Hello world')
   }
 }
