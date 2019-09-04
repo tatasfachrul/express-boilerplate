@@ -21,9 +21,13 @@
   },
   "homepage": "https://github.com/tatasfachrul/express-boilerplate#readme",
   "dependencies": {
+    "aws-sdk": "^2.522.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
     "mysql": "^2.17.1"
   },
   "devDependencies": {
