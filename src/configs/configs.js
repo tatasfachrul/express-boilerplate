@@ -25,6 +25,6 @@ module.exports = {
     secretAccessKey: process.env.AWS_ACCESS_KEY_SECRET,
     region: process.env.AWS_S3_REGION,
     bucket: process.env.AWS_S3_BUCKET,
-    custom_endpoint: process.env.AWS_S3_ENDPOINT
+    endpoint: process.env.AWS_S3_ENDPOINT
   }
 }
