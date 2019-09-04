@@ -1,8 +1,10 @@
-# Express Boilerplate
 ![](https://img.shields.io/badge/Code%20Style-Standard-yellow.svg)
 ![](https://img.shields.io/badge/Dependencies-Express-green.svg)
 ![](https://img.shields.io/badge/Cloud%20Storage-Amazon%20Web%20Service-orange.svg)
 ![](https://img.shields.io/badge/License-Beerware-yellowgreen.svg)
+
+# Express Boilerplate
+
 
 ---
 ## Table of Contents
@@ -39,7 +41,11 @@ Express Boilerplate is packed with bunch of feature you can use for developing y
 <ol>
   <li>Basic Configuration</li>
   <li>Structured</li>
-  <li>File Handling</li>
+  <li>File Handling
+    <ul>
+      <li>AWS S3</li>
+    </ul>
+  </li>
   <li>Auth with JWT</li>
   <li>Unit Testing</li>
   <li>Redis Implementation</li>
