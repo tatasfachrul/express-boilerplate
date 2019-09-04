@@ -1,6 +1,7 @@
 # Express Boilerplate
 ![](https://img.shields.io/badge/Code%20Style-Standard-yellow.svg)
 ![](https://img.shields.io/badge/Dependencies-Express-green.svg)
+![](https://img.shields.io/badge/Cloud%20Storage-Amazon%20Web%20Service-orange.svg)
 ![](https://img.shields.io/badge/License-Beerware-yellowgreen.svg)
 
 ---
@@ -18,13 +19,19 @@
 ---
 
 ## Introduction
+
+Express Boilerplate is packed with bunch of feature you can use for developing your app. Feel free to use and bought me beer later. Cheers.
+
 ---
+
 
 ## Prerequiste
 
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/) - Simple bash script to manage multiple active node.js versions.
 
 - Nodemon - Download and Install [Nodemon](https://nodemon.io/) - nodemon is a tool that automatically restarting the node application when file changes in the directory are detected.
+
+- Amazon Web Service - [AWS](https://aws.amazon.com/) - You need to have Account for using Amazon S3
 ---
 
 ## Configuration
@@ -56,19 +63,6 @@ $ cp .env.example .env
 $ nano .env
 ```
 ---
-```bash
-SERVER_PORT = YOUR-PORT
-WHITELIST = "YOUR-WHITELIST"
-
-DB_HOST = "YOU-DB-HOST"
-DB_USER = "YOUR-DB-USER"
-DB_PASSWORD = "YOUR-DB-PASSWORD"
-DB_NAME = "YOUR-DB-NAME"
-
-SECRET_KEY = "YOUR-SECRET-KEY"
-REQUEST_HEADERS = "YOUR-APP-HEADERS"
-```
----
 ### Start Development Server
 ```bash
 $ npm start
@@ -82,6 +76,7 @@ $ npm start
 - [jsonwebtoken](#)
 - [multer](#)
 - [cloudinary](#)
+- [aws-sdk](#)
 - [multer-s3](#)
 - [morgan](#)
 - [mocha](#)
