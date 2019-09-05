@@ -1,4 +1,3 @@
-const crypto = require('crypto')
 const JWT = require('jsonwebtoken')
 const config = require('../configs/configs')
 
