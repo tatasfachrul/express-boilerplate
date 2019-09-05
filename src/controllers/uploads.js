@@ -14,6 +14,9 @@ module.exports = {
       return res.json(dataFile)
     }
   },
+  uploadCloudinary: (req, res) => {
+    console.log('Hello world')
+  },
   upload: (req, res) => {
     console.log('Hello world')
   }
