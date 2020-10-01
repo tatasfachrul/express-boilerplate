@@ -8,7 +8,7 @@ module.exports = {
     } else {
       const dataFile = {
         file: req.file.key,
-        url: config.AWS.endpoint + '/' + req.file.key
+        url: `${config.AWS.endpoint}/${req.file.key}` 
       }
       console.log(dataFile)
       return res.json(dataFile)
